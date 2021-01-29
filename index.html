@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tea Ceremony</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="css/media.css">
+        <link rel="stylesheet" href="css/booking-form.css">        
+        <link rel="icon" href="img/title-icon.png">
+    </head>
+    <body>
+        <header>
+            <nav class="nav">
+                <p class="tea-culture">
+                    <a href="index.html">
+                        <img src="img/tea-culture.png" alt="tea culture">
+                    </a>
+                </p>
+                <div class="menu">
+                    <a class="start-menu" href="#about">About</a>
+                    <a class="start-menu" href="#plans">Plans</a>
+                    <a class="start-menu" href="#gallery">Gallery</a>
+                    <a class="start-menu" href="#schedule">Schedule</a>
+                    <a class="start-menu" href="#pricing">Pricing</a>
+                    <a class="start-menu" href="#contacts">Contacts</a>
+                </div>
+            </nav>
+            <div class="banner">
+                <h1>Tea Ceremony</h1>
+                <p class="fascinating">Fascinating tea ceremony in the heart of New York</p>
+                <button class="book-now" type="reserve">Book Now</button>
+            </div>
+        </header>
+        <main>
+            <article class="about-company">
+                <div class="container-green-leave">
+                    <img class="green-leave" src="img/aboutcompany.jpg" alt="aboutcompany">
+                </div>    
+                <div class="about-text">
+                    <h2 id="about">About The Company</h2>
+                    <p class="beautiful-tea-culture">We want to share the beautiful tea culture with the world.</p>
+                    <p>Get rid of fatigue and discover new tea varieties. The tea ceremony clears your mind, helps concentrate and fills your body with healthy elements.</p>
+                    The tea degustation is conducted unhurriedly, so take your time to forget about the bustling city and fully enjoy the drink which was discovered more than 2000 years ago.</p>
+                    <p>In addition to simply serving and drinking tea, one of the core goals of this ceremony is to allow guests to enjoy the host’s hospitality in an atmosphere different from the common everyday life.</p>
+                </div>
+            </article>
+            <div class="second-page">
+                <h2 class="tea-green">Tea Making</h2>
+                <div class="sp-choose-cards">
+                    <article class="sp-first-card">
+                        <div class="container-introduction">
+                            <img class="introduction" src="img/introduction.jpg" alt="introduction">
+                        </div>    
+                        <div class="sp-text">
+                            <h3 class="make">1. Introduction</h3>
+                            <p class="paragraf-text">You'll learn the main concepts of the tea ceremony as well as what types of tea exist nowadays, what is special about them.</p>
+                        </div>
+                    </article>
+                    <article class="sp-second-card">
+                        <div class="container-degustation">  
+                            <img class="degustation" src="img/degustation.jpg" alt="degustation">
+                        </div>    
+                        <div class="sp-text">
+                            <h3 class="make">2. Degustation</h3>
+                            <p class="paragraf-text">We will introduce you to different types of tea, their history and features. It's your chance to taste the most unusual tea varieties.</p>
+                        </div>
+                    </article>
+                    <article class="sp-third-card">
+                        <div class="container-tea-making-degustation">
+                            <img class="tea-making-degustation" src="img/tea-making.jpg" alt="tea-making">
+                        </div>    
+                        <div class="sp-text">
+                            <h3 class="make">3. Tea-making</h3>
+                            <p class="paragraf-text">Prepare your tea! We'll show how to drink it, as well as will offer you a plate of sweets perfectly accompanying the drinks.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <div class="container">
+                
+                <h2 id="plans">Choose Your Plan</h2>
+                <div class="choose-cards">
+                    <article class="choose-card">
+                        <div class="border-tea-dinner">
+                            <img class="choose" src="img/tea-dinner.jpg" alt="tea-dinner">
+                        </div>
+                        <div class="choose-plan">
+                            <h3 class="one">Half Plan Without the Dinner</h3>
+                            <p class="two">Tea, confection, and souvenir 2 to 3 hours (can be adjusted upon request)</p>
+                        </div>
+                    </article>
+                    <article class="choose-card-two">
+                        <div class="border-full-plan">
+                            <img class="choose" src="img/full-plan.jpg" alt="full-plan">
+                        </div>    
+                        <div class="article-choose">
+                            <h3 class="one">Full Plan with Full-Course Meal</h3>
+                            <p class="two">Tea, confection, full-course meal, and souvenir 4 hours (can be adjusted upon request)</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <h2 id="gallery">Gallery</h2>
+            <div class="carousel">
+                <div class="slider">
+                    <div class="item">
+                        <img class="carousel-img" src="img/gallery1.jpg" alt="first slider">
+                        <div class="slideText">the best varieties of tea</div>
+                    </div>
+                    <div class="item">
+                        <img class="carousel-img" src="img/gallery2.jpg" alt="second slider">
+                        <div class="slideText">tea tasting</div>
+                    </div>
+                    <div class="item">
+                        <img class="carousel-img" src="img/gallery5.jpg" alt="five slider">
+                        <div class="slideText">serving</div>
+                    </div>
+                    <div class="item">
+                        <img class="carousel-img" src="img/gallery6.jpg" alt="six slider">
+                        <div class="slideText">tasting</div>
+                    </div>
+                    <a class="prev" onclick="minusSlide()">&#10094;</a>
+                    <a class="next" onclick="plusSlide()">&#10095;</a>
+                </div>
+                <div class="slider-dots">
+                    <span class="slider-dots_item" onclick="currentSlide(1)"></span> 
+                    <span class="slider-dots_item" onclick="currentSlide(2)"></span> 
+                    <span class="slider-dots_item" onclick="currentSlide(5)"></span> 
+                    <span class="slider-dots_item" onclick="currentSlide(6)"></span>        
+                </div>
+            </div>    
+            <h2 class="why-choose-as">Why Choose Us</h2>
+            <div class="column">
+                <article class="teapod-img">
+                    <div class="teapod-info">
+                        <img class="img-teapot" src="img/teapod.jpg" alt="teapod">
+                        <h3>Stylish Interior</h3>
+                        <p class="choose-text">Our tea rooms interiors are decorated with precious woods to create a special atmosphere of calmness and serenity.</p>
+                    </div>
+                </article>
+                <article class="choose-cup">
+                    <div class="choose-info">
+                        <img class="img-cup" src="img/cup.jpg" alt="cup">
+                        <h3>Private Lessons</h3>
+                        <p class="choose-text">We proudly offer private lessons to those interested in improving the level of expertise in the tea 
+                            ceremony.</p>
+                    </div>
+                </article>
+                <article class="leaves">
+                    <div class="leaves-info">
+                        <img class="img-leave" src="img/leave.jpg" alt="leave">
+                        <h3>Healthy Sweets</h3>
+                        <p class="choose-text">We offer a variety of delicious sweets which perfectly accompany the taste of teas. All sweets are gluten-free, lactose-free.</p>
+                    </div>
+                </article>
+            </div>
+            <Div>
+                <article class="schedule-time">
+                    <h2 id="schedule">Time Schedule</h2>
+                    <p>0:00 am – 11:30 am</p>
+                    <p>12:00 pm – 1:30 pm</p>
+                    <p>2:00 pm – 3:30 pm</p>
+                    <p>4:00 pm – 5:30 pm</p>
+                </article>
+            </Div>
+            <h2 id="pricing">Pricing</h2>
+            <p class="choose-the-price">Choose the price that suits you and enjoy the experience!</p>
+            <div class="pricing">
+                <article class="group">
+                    <h3 class="choose-h">Group of 7+ Adults</h3>
+                    <img class="img-pricing" src="img/tpeapod1.png" alt="teapod">
+                    <div class="teapod-correct">
+                        <p class="price">$24.13</p>
+                        <p class="pricing-text-person">per person</p>
+                        <p class="pricing-text-one">45 min <br>5 types of tea <br>Healthy sweets</p>
+                        <button class="book-now" type="pricing-button">Book</button>
+                    </div>        
+                </article>
+                <article class="group">
+                    <h3 class="choose-h">Shared Tea Ceremony</h3>
+                    <img class="img-pricing" src="img/tpeapod2.png" alt="tpeapod">
+                    <p class="price">$17.87</p>
+                    <p class="pricing-text-person">per person</p>
+                    <p class="pricing-text-two">Seating capacity is approximately 10 <br>
+                    3 types of tea <br>Healthy sweets</p>
+                    <button class="book-now" type="pricing-button">Book</button>
+                </article>
+                <article class="group">
+                    <h3 class="choose-h">Private Tea Ceremony</h3>
+                    <img class="img-pricing" src="img/tpeapod3.png" alt="teapod">
+                    <p class="price">$48.26</p>
+                    <p class="pricing-text-person">per person</p>
+                    <p class="pricing-text-three">7 types of tea <br>Healthy sweets <br>A pack of selected tea for free</p>
+                    <button class="book-now" type="pricing-button">Book</button>
+                </article>
+            </div>
+            <div class="heritage">
+                <img class="heritage-tea" src="img/heritage.jpg" alt="tea-heritage">
+                <article class="heritage">
+                    <h2 class="heritage">Tea Heritage</h2>
+                    <p class="text-heritage">Tea is an ancient drink that perfectly quenches thirst, 
+                    helps to concentrate and clear the mind. Initially, tea culture 
+                    originated in China, but now there are a huge number of 
+                    amazing varieties from Japan, Ceylon, Turkey and other regions.
+                    We have a unique collection of tea varieties from around the world 
+                    and are always happy to tell you about it, share the unique taste of 
+                    each drink with you.</p>
+                    <p class="text-heritage">Tea degustation is a whole ritual, which is held at an easy pace, with 
+                    pleasant relaxing music, in a darkened room. Our tea master will tell 
+                    you about each type of tea in detail, teach you how to brew it and 
+                    introduce you to the tea culture.</p>
+                </article>
+            </div>
+            <div class="container-tea-and-matcha">
+                <div class="tea-and-matcha">
+                    <div class="about-tea">
+                        <div class="about-green-tea-container">
+                            <img class="about-green-tea" src="img/abouttea.jpg" alt="about-tea">
+                        </div>    
+                    </div>  
+                    <div class="about-tea-container">   
+                        <article class="about_tea">
+                            <h2 class="chinaAndJapan">China, Japan and More</h2>
+                            <p class="china-text">In general, tea culture can be divided into two branches, traditional 
+                            and modern. We usually think of Chinese, Japanese and Turkish teas 
+                            when speaking about the traditional tea culture. All these varieties 
+                            of tea appeared many years ago and passed the test of time to be in 
+                            our collection today.</p>
+                            <p class="china-text">Among the more modern teas, we offer you to taste unique varieties 
+                            collected in Ceylon and the island of Java. Definitely, these teas 
+                            can compete with traditional Japanese and Chinese drinks.</p>
+                            <div class="container-white-button">    
+                                <button class="book-now-white1" type="read more">Read more</button>
+                            </div>   
+                        </article>
+                    </div>    
+                    
+                    <div class="matcha">
+                        <div class="img-matcha-tea">
+                            <img class="img-matcha1" src="img/matcha.jpg" alt="matcha1">
+                            <img class="img-matcha2" src="img/matcha2.jpg" alt="matcha2">
+                            <img class="img-matcha3" src="img/matcha3.jpg" alt="matcha3">
+                            <img class="img-matcha4" src="img/matcha4.jpg" alt="matcha4">
+                        </div>
+                    </div> 
+                    <div class="matcha-part-one">   
+                        <article class="matcha-text">
+                            <h2 class="matcha-text1">Matcha Tea Degustation</h2>
+                            <p class="matcha-text2">Matcha tea is a new trend with a long history. In fact, this type of tea was discovered in the days of the Chinese Song dynasty. It has a lot of health benefits and is commonly used to lose weight, boost energy and detox. Matcha tasting is included in our tea ceremony.</p>
+                            <div class="container-white-button">
+                                <button class="book-now-white" type="read more">Read more</button>
+                            </div>    
+                        </article>
+                    </div>    
+                </div>
+            </div>    
+            <div>
+                <article>
+                    <h2 class="recommend-header">Varieties Recommended by Our Tea Master</h2>
+                    <p class="recommend">You can buy any of these tea types in our store</p>
+                </article>
+                <div class="img-tea-container">
+                    <div class="img-tea">
+                        <img class="lime" src="img/green.jpg" alt="green">
+                        <img class="lime" src="img/yellow.jpg" alt="yellow">
+                        <img class="lime" src="img/lime.jpg" alt="lime">
+                    </div>
+                </div>    
+            </div>
+            <div class="testimonials">
+                <h2 class="peterson-header2">Testimonials</h2>
+                <img class="amanda" src="img/amanda_peterson.jpg" alt="amanda_peterson">
+                <h3 class="peterson-header3">Amanda Peterson</h3>
+                <p class="peterson">“I had an amazing experience! Many thanks to master for the brilliant explanation <br> of the true meaning of the tea ceremony and for such a detailed description of the ceremony's nature.”</p>
+            </div>
+            <div class="full-awards">
+                <div class="img-awards">
+                    <Div class="awards">
+                        <h2 class="header-awards">Awards</h2>
+                        <p class="text-awards">We’re proud of our awards!<br>Look, what we’ve already won.</p>
+                    </div>        
+                    </Div>
+                    <div class="cup-img-container">
+                        <div class="cup-img">
+                            <img class="cup" src="img/cup1.png" alt="cup1">
+                            <img class="cup" src="img/cup2.png" alt="cup2">
+                            <img class="cup" src="img/cup3.png" alt="cup3">
+                        </div>  
+                    </div>                   
+            </div>
+            <div class="follow">
+                <h2 class="follow">Follow Us <span class="tea-culture">@TeaCulture</span></h2>
+            </div>
+            <div class="end-photo">
+                <img class="img-follow" src="img/follow1.jpg" alt="follow1">
+                <img class="img-follow" src="img/follow2.jpg" alt="follow2">
+                <img class="img-follow" src="img/follow3.jpg" alt="follow3">
+                <img class="img-follow" src="img/follow4.jpg" alt="follow4">
+                <img class="img-follow" src="img/follow5.jpg" alt="follow5">
+                <img class="img-follow" src="img/follow6.jpg" alt="follow6">
+                <img class="img-follow" src="img/follow7.jpg" alt="follow7">
+                <img class="img-follow" src="img/follow8.jpg" alt="follow8">
+            </div>
+            <div class="map-container">
+                <h2 id="contacts">Our Address</h2>
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1270.864100426719!2d-73.98114097049962!3d40.74791862659192!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259071d3d4751%3A0x9728b46c89e0d304!2zMzUgUGFyayBBdmUsIE5ldyBZb3JrLCBOWSAxMDAxNiwg0KHQqNCQ!5e0!3m2!1sru!2sua!4v1611614020755!5m2!1sru!2sua" width="1180" height="550" frameborder="10" style="border" allowfullscreen="" aria-hidden="false" tabindex="0">
+                    </iframe>
+                </div>
+            </div>    
+        </main>
+        <footer>
+            <div class="end-box">
+                <div class="booking-form">
+                    <form id="form-id" class="form">
+                        <h2 class="register">Booking Form</h2>
+                        <p class="reservation">Reservation is recommended in the high season, especially for a group ceremony.</p>
+                        <div class="form-control">
+                            <label for="username"></label>
+                            <input class="booking-text" type="text" id="username" placeholder="Enter your full name*"/>
+                            <small>Error message</small>
+                        </div>
+                        <div class="form-control">
+                            <label for="email"></label>
+                            <input class="booking-text" type="text" id="email" placeholder="Enter your phone number*"/>
+                            <small>Error message</small>
+                        </div>
+                        <div class="form-control">
+                            <!-- <label for="password">password</label>
+                            <input type="password" id="password" placeholder="Enter password" /> -->
+                            <label for="Number-of-people"></label>
+                            <input class="booking-text" type="Number-of-people" id="Number-of-people" placeholder="Number of people"/>
+                            <small>Error message</small>
+                        </div>
+                        <div class="form-control">
+                            <label for="Date-form"></label>
+                            <input class="booking-text" type="Date-form" id="Date-form2" placeholder="Date"/>
+                            <small>Error message</small>
+                        </div>
+                        <div class="finish-button">
+                            <button type="reserve">Reserve</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="end">
+                <a href="index.html"><img class="end-tea" src="img/tea-culture-end.png" alt="tea-culture-end"></a>
+            </div>
+            <div class="ny-ceremony">
+                <h3>Tea Ceremony in New York</h3>
+            </div>
+            <div class="footer-menu">
+                <a class="end-menu" href="#about">About</a>
+                <a class="end-menu" href="#plans">Plans</a>
+                <a class="end-menu" href="#gallery">Gallery</a>
+                <a class="end-menu" href="#schedule">Schedule</a>
+                <a class="end-menu" href="#pricing">Pricing</a>
+                <a class="end-menu" href="#contacts">Contacts</a>
+            </div>
+            <div class="socials">
+                <a class="facebook" href="https://www.facebook.com/">
+                    <img class="facebook" src="img/facebook.webp" alt="facebook">
+                </a>
+                <a class="twitter" href="https://twitter.com/">
+                    <img  class="twitter" src="img/twitter.webp" alt="twitter">
+                </a>
+                <a href="https://www.instagram.com/">
+                    <img class="instagram" src="img/instagram.webp" alt="">
+                </a>
+            </div>
+            <div class="after-word">
+                <p class="ones">© Created by</p>
+                <p class="ones">All rights Reserved</p>
+            </div>
+        </footer>
+        <script src="js/booking-form.js"></script>
+        <script src="js/index.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    </body>
+</html>

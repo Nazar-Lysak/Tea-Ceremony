@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Roboto:ital,wght@0,300;0,500;0,700;1,100;1,300;1,500&display=swap'); 
+
+@media screen and (max-width: 1000px) {
+    
+    .banner h1 {
+        font-weight: 300;
+        font-size: 50px;
+    }
+
+    .banner {
+        font-size: 20px;
+    }
+
+    #about {
+        font-size: 40px;
+    }
+
+    .tea-green {
+        font-size: 40px;
+    }
+
+    #about {
+        padding: 45px 0 10px 0;
+    }
+
+    .about-company {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 40%;
+    }
+
+    .container-green-leave {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+    }
+
+    .about-text {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+        font-size: 17px;
+        margin: 0 20px 0 20px;
+    }
+
+    .tea-green {
+        padding: 20px;
+    }
+
+
+    .sp-choose-cards {
+        display: grid;        
+    }
+
+    .make {
+        display: flex;
+        justify-content: center;
+    }
+
+    .container-introduction {
+        display: flex;
+        justify-content: center;
+    }
+
+    .container-degustation {
+        display: flex;
+        justify-content: center;
+    }
+
+    .container-tea-making-degustation {
+        display: flex;
+        justify-content: center;
+    }
+
+    .paragraf-text {
+        padding: 0 40px 0 40px;
+    }
+
+    .container {
+        overflow: hidden;  
+        background: url(../img/brown.jpg);
+        background-size: 50% auto;
+        height: auto;      
+    }
+
+    .two {
+         font-size: 20px; 
+        
+    }    
+    .plans {
+        font-size: 40px;
+    }
+    .choose-cards {
+        display: grid;
+        grid-column: 1fr 1fr;
+        grid-row: 1fr;
+    }
+
+    #gallery {
+        font-size: 40px;
+    }
+
+    .column {
+         display: grid;
+         grid-column: 1fr;
+         grid-row: 1fr 1fr 1fr;
+     }
+
+     .why-choose-as {
+        font-size: 40px;
+     }
+
+     .choose-text {
+        font-size: 20px;
+        padding: 10px 20px 0 20px;
+     }
+
+    .leaves-page {
+        height: auto;
+        
+    }
+
+    .schedule-time {
+        height: auto;
+       
+    }
+
+     #pricing {
+        font-size: 40px;
+        padding: 40px 0 40 0;
+    }
+
+     .pricing {
+         display: grid;
+         grid-column: 1fr;
+         grid-row: 1fr 1fr 1fr;
+         height: auto; 
+    }
+
+    .choose-the-price {
+        padding: 15px 0 15px 0;
+        text-align: center;
+    }
+
+    .text-heritage {
+        padding: 0 10px 0 15px;
+    }
+
+    .tea-and-matcha {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 10% 10% 10% 10%;
+    }
+
+    .matcha {
+        grid-column: 1 / 2;
+        grid-row: 3 / 4;
+    }
+
+    .about-tea-container {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+    }
+
+    .matcha-part-one {
+        grid-column: 1 / 2;
+        grid-row: 4 / 5;
+    }
+
+    .about-green-tea {
+    max-width: 100%;
+    max-height: 100%;
+    padding: 30px 60px 20px 60px;
+    }
+
+    .chinaAndJapan {
+    font-size: 40px;
+    }
+
+    .china-text {
+    font-size: 18px;
+    margin: 0 30px 20px 30px;
+    }
+
+    .book-now-white:hover {
+        background-color: #8aa932;
+        transition: 0.5s;
+        border: 2px soli  #8aa932;
+        color: whitesmoke;
+    }
+    
+    .book-now-white1 {
+        cursor: pointer;
+        background-color: antiquewhite; 
+        border: 3px solid #8aa932;
+        border-radius: 40px;
+        color: rgb(56, 32, 32);
+        display: block;
+        font-size: 16px;
+        font-weight: 700;
+        padding: 10px;
+        width: 220px;
+        display: flex; 
+        justify-content: center;
+    }    
+    
+    .book-now-white1:hover {
+        background-color: #8aa932;
+        transition: 0.5s;
+        border: 2px soli  #8aa932;
+        color: whitesmoke;
+    }
+
+    .container-white-button {
+        display: flex;
+        justify-content: center;
+    }
+
+    
+    .matcha {
+       display: grid;
+       grid-gap: 0px;
+    }
+
+    .img-matcha1 {
+        max-width: 100%;
+        max-height: 100%;
+    }
+    
+    .img-matcha2 {
+        display: grid;
+        max-width: 100%;
+        max-height: 100%;
+    }
+    
+    .img-matcha3 {
+        display: grid;
+        max-width: 100%;
+        max-height: 100%;
+    }
+    
+    .img-matcha4 {
+        display: grid;
+        max-width: 100%;
+        max-height: 100%;
+    }
+    
+    .matcha-text {
+        padding: 20px;
+    }
+
+    .matcha-text1 {
+        font-size: 40px;
+    }
+
+    .matcha-text2 {
+        font-size: 18px;
+    }
+
+    .recommend-header {
+        font-size: 40px;
+        font-weight: 500;
+        text-align: center;
+        padding: 20px 10px 10px 10px;
+    }
+
+    .recommend {
+        font-size: 25px;
+        text-align: center; 
+    }
+
+    .img-tea-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .peterson {
+        padding: 0 20px 0 20px;
+    }
+
+    .img-tea {
+        max-width: 100%;
+        display: grid;
+    }
+
+    .cup-img {
+        display: grid;
+    }
+
+    .cup {
+        margin: 0;
+    }
+
+    .header-awards {
+        font-size: 40px;
+    }
+
+    .awards {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .follow {
+        font-size: 40px;
+    }
+
+    .end-photo {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+
+    #contacts {
+        display: flex;
+        justify-content: center;
+    }
+    
+}

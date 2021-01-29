@@ -1,0 +1,1038 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Roboto:ital,wght@0,300;0,500;0,700;1,100;1,300;1,500&display=swap'); 
+
+:root {
+    scroll-behavior: smooth;
+    font-family: 'Roboto', sans-serif
+}
+
+body {
+    max-width: 1180px;
+    margin: auto;
+    background-color: whitesmoke;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+}
+
+h2, h3 {
+    font-family: 'Playfair Display', serif;
+    color: #642a1b;
+}
+
+.nav {
+    padding: 15px 0 15px 0;
+}
+
+header h1 {
+    font-size: 6.2rem;
+    margin: 0px;
+}
+
+header .banner {
+    background-image: url(../img/tea-ceremony.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 800px;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+header .nav {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: -10px;
+}
+
+.banner {
+    display: flex;
+    padding: 50px;
+    max-height: 300px;
+    max-width: 100%;
+}
+
+.menu a {
+    display: flex;
+    display: inline;
+    justify-content: space-between;
+    text-decoration: none;
+    font-weight: 700;
+    color: #63342a;
+}
+
+.start-menu {
+    padding: 10px;
+}
+
+.banner {
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: white;
+}
+
+.book-now {
+  cursor: pointer;
+  background-color: #8aa932;
+  border: 2px solid #8aa932;
+  border-radius: 40px;
+  color: #fff;
+  display: block;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 10px;
+  margin-top: 20px;
+  width: 150px;  
+}
+
+.book-now:hover {
+    background-color: rgb(99, 80, 80);
+    transition: 0.5s;
+    border: 2px solid rgb(99, 80, 80);
+}
+
+.banner a {
+    color: white;
+    text-decoration: none;
+    color: white;
+}
+
+img[src="img/tea-culture.png"] {
+    width: 185px;
+}
+
+.about-company {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.green-leave {
+    max-width: 570px;
+    max-height: 468.016px;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    top: 30px;
+}
+
+.about-text {
+    color: #7e7c7c;
+    font-size: 17px;
+}
+
+.paragraf-text {
+    color: #7e7c7c;
+}
+
+.main-wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 30px 0 0;
+    margin: 0 15px;
+}
+
+#about {
+    font-size: 3rem;
+    color: #4e342e;
+    margin: 0 0 25px 0;
+    font-weight: 700;
+}
+
+.introduction {
+    max-width: 100%;
+    max-height: 205px;
+    padding: 0 5px;
+    margin: 0;
+    position: relative;
+    left: 48px;
+}
+
+.degustation {
+    max-width: 100%;
+    max-height: 205px;
+    padding:  0 5px;
+    margin: 0;
+    position: relative;
+    left: 48px;
+}
+
+.sp-text {
+    padding: 15px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.tea-making-degustation {
+    max-width: 100%;
+    max-height: 205px;
+    padding:  0 5px;
+    margin: 0;
+    position: relative;
+    left: 48px;
+}   
+
+.sp-choose-cards {
+    display: flex;
+    justify-content: center;
+    padding: 0 0 50px 0;
+}
+
+.beautiful-tea-culture {
+    font-size: 20px;
+    color: #4e342e;
+}
+
+.about-company {
+    max-width: 1180px;
+    color: #616161;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    bottom: 50px;
+}
+
+.about-company {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.green-leave {
+    position: relative;
+    bottom: 50px;
+    max-width: 100%;
+}
+
+.teapot {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0 0;
+    padding: 0 15px;
+}
+
+.tea-green {
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0 70px 0;
+    font-weight: 700;
+}
+
+.tea {
+    width: 369px;
+    height: 244px;
+    display: inline-flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.container {
+    max-width: 100%;
+    height: 800px;
+    background-image: url(../img/brown.jpg);
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+}
+
+#plans {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+    font-size: 40px;
+    color: white;
+}
+
+.border-tea-dinner {
+    padding: 0 20px 0 20px;
+}
+
+.border-full-plan {
+    padding: 0 20px 0 20px;
+}
+
+.choose {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.choose-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.choose-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    max-width: 550px;
+    height: 500px;
+    margin: 10px;
+}
+
+.choose-card-two {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    max-width: 550px;
+    height: 500px;
+    margin: 10px;
+}
+
+#gallery {
+    display: flex;
+    justify-content: center;
+    padding: 80px 0 40px 0;
+    font-size: 50px;
+}
+
+.carousel {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.carousel-img {
+    max-width: 100%;
+}
+
+.carousel-img {
+    max-width: 1180px;
+    max-height: 100%;
+    color: darkblue;    
+}
+
+/* Кнопки вперед и назад */
+.slider .prev, .slider .next {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+.slider .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+/* При наведении на кнопки добавляем фон кнопок */
+.slider .prev:hover,
+.slider .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+/* Заголовок слайда */
+.slideText {
+    position: absolute;
+    color: cornsilk;
+    font-size: 35px;
+    font-style: italic;
+    /* Выравнивание текста по горизонтали и по вертикали*/
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    /* Тень*/
+    text-shadow: 1px 1px 1px #000, 0 0 1em #000;
+}
+/* Кружочки */
+.slider-dots {
+    text-align: center;
+        
+}
+.slider-dots_item{
+    cursor: pointer;
+    height: 12px;
+    width: 12px;
+    margin: 0 2px;
+    background-color: #ddd;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.active,
+.slider-dots_item:hover {
+    background-color: #aaa;
+}
+/* Анимация слайдов */
+.slider .item {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+.why-choose-us {
+    display: flex;
+    justify-content: center;
+    margin: 350px 0 350px 0;
+    
+}
+
+.article-choose {
+    color: #7e7c7c;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.choose {
+    width: 510px;
+    height: 328.641px;
+}
+
+.choose-plan {
+    color: #7e7c7c;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.one {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    padding: 15px 0 10px 0;
+    margin: 0;
+}
+
+.two {
+    display: flex;
+    justify-content: center;
+    padding: 0 15px;
+    font-size: 17.5px;
+}
+
+.why-choose-as {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-weight: 500;
+    font-size: 50px;
+}
+
+.column {
+    color: #616161;
+    display: flex;
+    flex-direction: row;
+    padding: 0 0 75px 0;
+}
+
+.teapod-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    margin: 5px;
+}
+
+.teapod-correct {
+    position: relative;
+    top: 10px;
+    text-align: center;
+}
+
+
+.img-teapot {
+    padding: 10px 0 25px 0;
+}
+
+.choose-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    margin: 5px;
+}
+
+.img-cup {
+    padding: 10px 0 25px 0;
+}
+
+.leaves-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    margin: 5px;
+    }
+
+.img-leave {
+    padding: 10px 0 25px 0;
+}
+
+.choose-text {
+    color: #7e7c7c;
+    font-weight: 500;
+    text-align: center;
+    line-height: 1.7;
+}
+
+.plans {
+    color: white;
+}
+
+#schedule {
+    color: seashell;
+    font-size: 3rem;
+}
+
+.schedule-time {
+    height: 400px;
+    background-image: url(../img/time-schedule.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-style: italic;
+    color: seashell;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+}
+
+#pricing {
+    display: flex;
+    justify-content: center;
+    padding: 80px 0 5px 0;
+}
+
+.group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px 0 70px 0;
+    margin: 5px;
+}
+
+.choose-h {
+    font-weight: 900;
+    padding: 0 0 30px 0;
+}
+
+.price {
+    font-weight: 900;
+    padding: 20px 0 0;
+    font-size: 30px;
+    font-style: italic;
+    color: rgb(104, 52, 52);
+}
+
+.choose-the-price {
+    display: flex;
+    justify-content: center;
+    padding: 5px 0 25px 0;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(104, 52, 52);
+    padding: 0 0 100px 0;
+}
+
+.pricing {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-weight: 500;
+}
+
+#pricing {
+    font-size: 3rem;
+}
+
+.img-pricing {
+    display: flex;
+    justify-content: center;
+}
+
+.leaves-page {
+    background-image: url(../img/leave-picture.jpg);
+    background-size: cover;
+    background-position: center;
+    max-height: 1180px;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: rgb(104, 52, 52);    
+}
+
+.pricing-text-one {
+    text-align: center;
+    padding: 0 0 18px 0;
+}
+
+.pricing-text-two {
+    text-align: center;
+} 
+
+.pricing-text-three {
+    text-align: center;
+}
+
+.heritage {
+    background-image: url(../img/brown.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    margin: 15px;
+    color: cornsilk;
+    text-align: center;
+}
+
+.heritage-tea {
+    max-width: 100%;
+    max-height: 400px;
+    padding: 25px 0 10px 0;
+    border-radius: 150px 150px 150px 150px;
+    position: relative;
+    top: 15px;
+}
+
+.text-heritage {
+    padding: 0 75px 0 75px;
+}
+
+.about-green-tea {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.tea-and-matcha {
+    margin: 50px 0 50px 0;
+    color: #616161;    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50% 50%;
+    grid-gap: 35px;
+    justify-items: center;
+}
+
+.about-green-tea-container {
+    display: grid;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+.chinaAndJapan {
+    padding: 0 20px 0 20px;
+}
+
+.china-text {
+    padding: 0 20px 0 20px;
+    text-align: center;
+    font-size: 20px;
+    font-style: italic;
+    color: #7e7c7c;
+}
+
+.matcha-text1 {
+    padding: 0 20px 0 20px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 50px;
+}
+
+.matcha-text2 {
+    padding: 0 20px 0 20px;
+    text-align: center;
+    font-size: 20px;
+    font-style: italic;
+    color: #7e7c7c
+}
+
+.about_tea {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+
+.chinaAndJapan {
+    display: grid;
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    padding: 0 20px 0 20px;
+    text-align: center;
+    font-weight: 500;
+    padding: 10px 0 0 0;
+    font-size: 45px;
+    position: relative;
+    bottom: 20px;
+}
+
+.matcha {
+    display: grid;
+    display: grid;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+
+.matcha-part-one {
+    display: grid;    
+    grid-column: 1 / 2;
+    grid-row: 2 / 3; 
+}
+
+ .img-matcha-tea {
+    display: grid;
+    grid-template-columns: 45% 45%;
+    grid-template-rows: 45% 45%;
+    grid-gap: 10px;
+ }
+
+.img-matcha1 {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.img-matcha2 {
+    display: grid;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.img-matcha3 {
+    display: grid;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.img-matcha4 {
+    display: grid;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.matcha-text {
+    padding: 20px;
+}
+
+.book-now-white {
+    cursor: pointer;
+    background-color: antiquewhite; 
+    border: 3px solid #8aa932;
+    border-radius: 40px;
+    color: rgb(56, 32, 32);
+    display: block;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 10px;
+    width: 220px; 
+    height: 60px;
+}    
+
+.book-now-white:hover {
+    background-color: #8aa932;
+    transition: 0.5s;
+    border: 2px soli  #8aa932;
+    color: whitesmoke;
+}
+
+.book-now-white1 {
+    cursor: pointer;
+    background-color: antiquewhite; 
+    border: 3px solid #8aa932;
+    border-radius: 40px;
+    color: rgb(56, 32, 32);
+    display: block;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 10px;
+    width: 220px;
+    display: flex; 
+    justify-content: center;
+}    
+
+.book-now-white1:hover {
+    background-color: #8aa932;
+    transition: 0.5s;
+    border: 2px soli  #8aa932;
+    color: whitesmoke;
+}
+
+.img-tea {
+    max-width: 100%;
+    display: flex;
+}
+
+.lime {
+    max-width: 100%;
+    height: 366.984px;
+}
+
+.amanda {
+    width: 120px;
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    border-radius: 250px;    
+}
+
+.peterson-header {
+    border-radius: 250px;
+    color: blanchedalmond;
+    font-weight: 700;
+    font-size: 30px;
+    margin: 0;
+}
+
+.peterson-header2 {
+    color: blanchedalmond;
+    font-weight: 700;
+    font-size: 40px;
+    margin: 0 0 45px 0;
+    font-style: italic;
+    letter-spacing: 6px;
+}
+
+.peterson-header3 {
+    color: blanchedalmond;
+    font-weight: 700;
+    font-size: 30px;
+    margin: 20px;
+    letter-spacing: 6px;    
+}
+
+.peterson {
+    display: flex;
+    justify-content: center;  
+    color: blanchedalmond;
+    text-align: center;
+    font-weight: 500;
+    font-size: 19px;
+    margin: 0;
+    font-style: italic;
+}
+
+.testimonials {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(../img/green-back.jpg);
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+    align-items: center;
+    color: blanchedalmond;
+    height: 500px;
+    
+}
+.recommend-header {
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 37px;
+    color: rgb(104, 52, 52);
+    padding: 75px 0 10px 0;
+}
+
+.recommend {
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 25px;
+    font-style: italic; 
+    color: #63342a;   
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0 60px 0;
+}
+
+.tea-culture {
+    color: green;
+}
+
+.header-awards {
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    margin: 100px 0 15px 0; 
+    
+}
+
+.text-awards {
+    font-size: 18px;
+    font-weight: 500;
+    font-style: italic;
+    color: #7e7c7c;
+    
+}
+
+.img-awards{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    max-width: 100%;
+    
+} 
+
+.header-awards {
+    display: flex ;
+    justify-content: center;
+}
+
+.cup-img {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.cup {
+   padding: 40px;
+   margin: 50px 0 120px 0;
+   max-width: 100%;
+   
+}
+
+.follow {
+    display: flex;
+    justify-content: center;
+    color: #63342a;
+    font-size: 40px;
+    padding: 0 0 20px 0;
+}
+
+.end-photo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 10px;
+    padding: 10px;
+    margin: 0 0 50px 0;
+    max-width: 100%;
+}
+
+.img-follow {
+    padding: 10px;
+    max-width: 100%;
+}
+
+.map {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.map-container {
+    border: 2px solid whitesmoke;
+    max-width: 100%;
+    border-radius: 20px;
+    padding: 10px;
+    background-color:rgb(252, 245, 232);
+}
+
+.adress {
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+    letter-spacing: 10px; 
+}
+
+.end-box {
+    padding: 20px;
+}
+
+.end {
+    display: flex;
+    justify-content: center;
+}
+
+.end-tea {
+    width: 220px;
+    height: 70.656px;
+    padding: 10px 0 0 0;
+    margin: 10px;
+}
+
+.end-menu {
+    text-decoration: none;
+    color: #63342a;
+    font-size: 17px;
+    padding: 15px;
+}
+
+.footer-menu {
+    display: flex;
+    justify-content: center;
+    color: #63342a;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.ny-ceremony {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.facebook {
+    max-width: 100%;
+    height: 30px;
+    padding: 0 5px 0 5px;
+}
+
+.twitter {
+    max-width: 100%;
+    height: 30px;
+    padding: 0 5px 0 5px;
+}
+
+.instagram {
+    max-width: 100%;
+    height: 30px;
+    padding: 0 5px 0 5px;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.after-word {
+    display: flex;
+    justify-content: center;
+    color: #642a1b;
+}
