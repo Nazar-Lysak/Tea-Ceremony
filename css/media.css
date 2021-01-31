@@ -315,3 +315,202 @@
     }
     
 }
+
+
+@media screen and (max-width: 400px) {
+    header .banner {
+        background-image: url(../img/tea-ceremony.png);
+        background-size: cover;
+        background-position: center;
+        padding: 15px;
+    }
+
+    .start-menu {
+        font-size: 12px;
+    }
+
+    #about {
+        font-size: 30px;
+    }
+
+    .beautiful-tea-culture {
+        font-size: 18px;
+    }
+
+    .about-text {
+        font-size: 15px;
+    }
+
+    
+    .container-introduction {
+        display: flex;
+        justify-content: left;
+        
+    }
+
+    .container-degustation {
+        display: flex;
+        justify-content: left;
+    }
+
+    .container-tea-making-degustation {
+        display: flex;
+        justify-content: left;
+    }
+
+    #plans {
+        font-size: 30px;
+    }
+
+    .one {
+        font-size: 20px;
+    }
+
+    .two {
+        font-size: 19px;
+        text-align: center;
+    }
+
+    .choose {
+        height: 290px;
+    }
+
+    #gallery {
+        font-size: 30px;
+    }
+
+    .slideText {
+        font-size: 18px;
+    }
+
+    .why-choose-as {
+        font-size: 30px;
+    }
+
+    .img-teapot {
+        height: 103px;
+        width: 80px;
+    }
+
+    .choose-text {
+        font-size: 17px;
+    }
+
+    .img-cup {
+        height: 103px;
+        width: 80px;
+    }
+
+    .img-leave {
+        height: 103px;
+        width: 80px;
+    }
+
+    #schedule {
+        font-size: 40px;
+    }
+
+    .pricing {
+        font-size: 30px;
+    }
+
+    .choose-the-price {
+        padding: 5px;
+    }
+
+    .pricing-text-person {
+        font-size: 23px;
+        color: #642a1b;
+        font-style: italic;
+    }
+
+    .pricing-text-one {
+        font-size: 23px;
+        color: #642a1b;
+        font-style: italic;
+    }
+
+    .pricing-text-two {
+        font-size: 23px;
+        color: #642a1b;
+        font-style: italic;
+    }
+
+    .pricing-text-three {
+        font-size: 23px;
+        color: #642a1b;
+        font-style: italic;
+    }
+
+    .text-heritage {
+        padding: 0;
+        margin: 0;
+    }
+
+    .chinaAndJapan {
+        font-size: 30px;
+    }
+
+    .matcha-text1 {
+        font-size: 30px;
+    }
+
+    .img-matcha-tea {
+        display: grid;
+        justify-content: center;
+    }
+
+    .recommend-header {
+        font-size: 30px;
+    }
+
+    .recommend {
+        font-size: 20px;
+        margin: 8px;
+    }
+
+    .lime {
+        height: 200px;
+    }
+
+    .peterson-header2 {
+        font-size: 30px;
+    }
+
+    .amanda {
+        height: 150px;
+    }
+
+    .peterson-header3 {
+        font-size: 25px;
+    }
+
+    .peterson {
+        font-size: 20px;
+    }
+
+    .header-awards {
+        font-size: 30px;
+        padding: 20px;
+        margin: 0;
+    }
+
+    .cup {
+        height: 250px;
+    }
+
+    .follow {
+        font-size: 30px;
+        padding: 10px;
+    }
+
+    .end-photo {
+        justify-items: center;
+    }
+
+    .end-menu {
+        font-size: 10px;
+        display: flex;
+        justify-content: center;
+    }
+}
