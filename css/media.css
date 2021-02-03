@@ -135,6 +135,10 @@
          height: auto; 
     }
 
+    .group {
+        background-color: white;
+    }
+
     .choose-the-price {
         padding: 15px 0 15px 0;
         text-align: center;
@@ -144,7 +148,9 @@
         padding: 0 10px 0 15px;
     }
 
-    .tea-and-matcha {
+    /* zone */
+
+        .tea-and-matcha {
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 10% 10% 10% 10%;
@@ -214,7 +220,7 @@
         justify-content: center;
     }
 
-    
+     
     .matcha {
        display: grid;
        grid-gap: 0px;
@@ -254,6 +260,8 @@
     .matcha-text2 {
         font-size: 18px;
     }
+
+    /* zone */
 
     .recommend-header {
         font-size: 40px;
