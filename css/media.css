@@ -38,7 +38,7 @@
         grid-column: 1 / 2;
         grid-row: 2 / 3;
         font-size: 17px;
-        margin: 0 20px 0 20px;
+        margin: 0 20px 80px 20px;
     }
 
     .tea-green {
@@ -81,10 +81,18 @@
         height: auto;      
     }
 
+    .one {
+        font-size: 23px; 
+   }   
+
     .two {
-         font-size: 20px; 
-        
-    }    
+         font-size: 15px; 
+    }   
+    
+    .slideText {
+        font-size: 25px;;
+    }
+
     .plans {
         font-size: 40px;
     }
@@ -325,7 +333,7 @@
 }
 
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
     header .banner {
         background-image: url(../img/tea-ceremony.png);
         background-size: cover;
@@ -333,8 +341,15 @@
         padding: 15px;
     }
 
+    .menu {
+    
+    }
+
     .start-menu {
-        font-size: 12px;
+        font-size: 11px;
+        display: flex;
+        justify-content: center;
+        padding: 2px;
     }
 
     #about {
@@ -345,15 +360,24 @@
         font-size: 18px;
     }
 
-    .about-text {
-        font-size: 15px;
+    .about-company {
+        height: auto;
     }
 
+    .about-text {
+        font-size: 15px;
+        margin: 5px;
+        padding: 5px;
+    }
+
+    .tea-green {
+        margin: 40px 5px 20px 5px;
+        padding: 5px;
+    }
     
     .container-introduction {
         display: flex;
         justify-content: left;
-        
     }
 
     .container-degustation {
@@ -371,11 +395,11 @@
     }
 
     .one {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .two {
-        font-size: 19px;
+        font-size: 14px;
         text-align: center;
     }
 
@@ -427,32 +451,37 @@
     }
 
     .pricing-text-person {
-        font-size: 23px;
+        font-size: 18px;
         color: #642a1b;
         font-style: italic;
     }
 
     .pricing-text-one {
-        font-size: 23px;
+        font-size: 18px;
         color: #642a1b;
         font-style: italic;
     }
 
     .pricing-text-two {
-        font-size: 23px;
+        font-size: 18px;
         color: #642a1b;
         font-style: italic;
     }
 
     .pricing-text-three {
-        font-size: 23px;
+        font-size: 18px;
         color: #642a1b;
         font-style: italic;
     }
 
-    .text-heritage {
+    .heritage {
         padding: 0;
         margin: 0;
+    }
+
+    .text-heritage {
+        padding: 5px;
+        margin: 5px;
     }
 
     .chinaAndJapan {
@@ -491,10 +520,11 @@
 
     .peterson-header3 {
         font-size: 25px;
+        text-align: center;
     }
 
     .peterson {
-        font-size: 20px;
+        font-size: 15px;
     }
 
     .header-awards {
@@ -517,8 +547,9 @@
     }
 
     .end-menu {
-        font-size: 10px;
+        font-size: 11px;
         display: flex;
         justify-content: center;
+        padding: 2px;
     }
 }
