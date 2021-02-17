@@ -107,19 +107,19 @@
     }
 
     .column {
-         display: grid;
-         grid-column: 1fr;
-         grid-row: 1fr 1fr 1fr;
-     }
+        display: grid;
+        grid-column: 1fr;
+        grid-row: 1fr 1fr 1fr;
+    }
 
-     .why-choose-as {
+    .why-choose-as {
         font-size: 40px;
-     }
+    }
 
-     .choose-text {
+    .choose-text {
         font-size: 20px;
         padding: 10px 20px 0 20px;
-     }
+    }
 
     .leaves-page {
         height: auto;
@@ -137,10 +137,10 @@
     }
 
      .pricing {
-         display: grid;
-         grid-column: 1fr;
-         grid-row: 1fr 1fr 1fr;
-         height: auto; 
+        display: grid;
+        grid-column: 1fr;
+        grid-row: 1fr 1fr 1fr;
+        height: auto; 
     }
 
     .group {
@@ -156,9 +156,7 @@
         padding: 0 10px 0 15px;
     }
 
-    /* zone */
-
-        .tea-and-matcha {
+    .tea-and-matcha {
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 10% 10% 10% 10%;
@@ -180,18 +178,18 @@
     }
 
     .about-green-tea {
-    max-width: 100%;
-    max-height: 100%;
-    padding: 30px 60px 20px 60px;
+        max-width: 100%;
+        max-height: 215px;
+        padding: 30px 60px 20px 60px;
     }
 
     .chinaAndJapan {
-    font-size: 40px;
+        font-size: 40px;
     }
 
     .china-text {
-    font-size: 18px;
-    margin: 0 30px 20px 30px;
+        font-size: 18px;
+        margin: 0 30px 20px 30px;
     }
 
     .book-now-white:hover {
@@ -269,8 +267,6 @@
         font-size: 18px;
     }
 
-    /* zone */
-
     .recommend-header {
         font-size: 40px;
         font-weight: 500;
@@ -332,7 +328,6 @@
     
 }
 
-
 @media screen and (max-width: 450px) {
     header .banner {
         background-image: url(../img/tea-ceremony.png);
@@ -340,11 +335,7 @@
         background-position: center;
         padding: 15px;
     }
-
-    .menu {
     
-    }
-
     .start-menu {
         font-size: 11px;
         display: flex;
@@ -362,10 +353,12 @@
 
     .about-company {
         height: auto;
+        display: flex;
+        flex-direction: column;
     }
 
     .about-text {
-        font-size: 15px;
+        font-size: 14px;
         margin: 5px;
         padding: 5px;
     }
@@ -373,6 +366,11 @@
     .tea-green {
         margin: 40px 5px 20px 5px;
         padding: 5px;
+    }
+
+    .paragraf-text {
+        padding: 5px;
+        font-size: 14px;
     }
     
     .container-introduction {
@@ -391,7 +389,8 @@
     }
 
     #plans {
-        font-size: 30px;
+        font-size: 28px;
+        padding: 15px 0 0 0;
     }
 
     .one {
@@ -403,8 +402,20 @@
         text-align: center;
     }
 
+    .container {
+        max-height: 100%;
+    }
+
     .choose {
-        height: 290px;
+        height: 180px;
+    }
+
+    .choose-card {
+        max-height: 70%;
+    }
+
+    .choose-card-two {
+        max-height: 70%;
     }
 
     #gallery {
@@ -423,9 +434,8 @@
         height: 103px;
         width: 80px;
     }
-
     .choose-text {
-        font-size: 17px;
+        font-size: 14px;
     }
 
     .img-cup {
@@ -438,8 +448,13 @@
         width: 80px;
     }
 
+    .schedule-time {
+        font-size: 16px;
+        padding: 10px;
+    }
+
     #schedule {
-        font-size: 40px;
+        font-size: 28px;
     }
 
     .pricing {
@@ -448,6 +463,19 @@
 
     .choose-the-price {
         padding: 5px;
+        font-size: 18px;
+    }
+
+    #pricing {
+        font-size: 28px;
+    }
+
+    .group {
+        padding: 10px 0;
+    }
+
+    .choose-h {
+        font-size: 16px;
     }
 
     .pricing-text-person {
@@ -457,44 +485,79 @@
     }
 
     .pricing-text-one {
-        font-size: 18px;
+        font-size: 14px;
         color: #642a1b;
         font-style: italic;
     }
 
     .pricing-text-two {
-        font-size: 18px;
+        font-size: 14px;
         color: #642a1b;
         font-style: italic;
     }
 
     .pricing-text-three {
-        font-size: 18px;
+        font-size: 14px;
         color: #642a1b;
         font-style: italic;
     }
 
+    .price {
+        font-size: 24px;
+    }
+
+    .heritage-tea {
+        padding: 10px 5px;
+    }
+
     .heritage {
-        padding: 0;
+        padding: 5px 0;
         margin: 0;
     }
 
     .text-heritage {
         padding: 5px;
         margin: 5px;
+        font-size: 14px;
     }
 
     .chinaAndJapan {
-        font-size: 30px;
+        font-size: 28px;
+    }
+
+    .tea-and-matcha {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-green-tea {
+        padding: 5px;
+    }
+
+    .about-tea {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-green-tea-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .china-text {
+        font-size: 14px;
+        margin: 0;
+        padding: 15px;
     }
 
     .matcha-text1 {
         font-size: 30px;
+        padding: 10px 5px;
     }
 
     .img-matcha-tea {
-        display: grid;
-        justify-content: center;
+        display: flex;
+        flex-direction: column;
     }
 
     .recommend-header {
